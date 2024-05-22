@@ -1,6 +1,6 @@
 package Shapes;
 
-public class Circle implements Shape{
+public class Circle extends Shape{
     @Override
     public String printNameOfFigures() {
         return "Circle";

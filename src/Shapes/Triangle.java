@@ -1,6 +1,6 @@
 package Shapes;
 
-public class Triangle implements Shape{
+public class Triangle extends Shape{
     @Override
     public String printNameOfFigures() {
         return "Triangle";

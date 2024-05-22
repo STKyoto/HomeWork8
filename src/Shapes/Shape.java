@@ -1,5 +1,5 @@
 package Shapes;
 
-public interface Shape {
-    String printNameOfFigures();
+public abstract class Shape {
+    abstract String printNameOfFigures();
 }
